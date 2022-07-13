@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "title": "Dwarf Barbarian",
+      "statStrength": 18,
+      "statDexterity": 12,
+      "statConstitution": 15,
+      "statWisdom": 7,
+      "statIntelligence": 6,
+      "statCharisma": 11,
+      "imageURL" : "https://i.pinimg.com/originals/9e/c1/f3/9ec1f30e1ff92cce4bb4fb963bb3d79e.png"
+    },
+    {
+      "id": 2,
+      "title": "Tiefling Sorcerer",
+      "statStrength": 8,
+      "statDexterity": 13,
+      "statConstitution": 10,
+      "statWisdom": 9,
+      "statIntelligence": 12,
+      "statCharisma": 20,
+      "imageURL" : "https://sagegamers.com/ezoimgfmt/149658804.v2.pressablecdn.com/wp-content/uploads/2021/12/image-2.png?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-2"
+    },
+    {
+      "id": 3,
+      "title": "Half-Elf Ranger",
+      "statStrength": 6,
+      "statDexterity": 16,
+      "statConstitution": 13,
+      "statWisdom": 15,
+      "statIntelligence": 11,
+      "statCharisma": 10,
+      "imageURL" : "https://db4sgowjqfwig.cloudfront.net/campaigns/93725/assets/356101/Half-Elf_Ranger.jpg?1407417415"
+    }
+  ]

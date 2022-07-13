@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D Character Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>D&D Character Creator</h1>
+    </header>
+
+    <br>
+    <br>
+
+    <main>
+
+    <form>
+        <input 
+            type='text'
+            id="title"
+            placeholder="Character Name"/>
+        <input 
+            type='text'
+            id="img"
+            placeholder='Paste image URL'/>
+
+        <section id="stats-container">
+            <p>Enter Character Stats</p>
+            <br>
+            <div id="stat-container">
+                
+                <label for="str">STR:</label>
+                <input type="number" id="str" name="strength" min="6" max="20" placeholder="Select">
+
+            </div>
+            <div id="stat-container">
+
+                <label for="dex">DEX:</label>
+                <input type="number" id="dex" name="dexterity" min="6" max="20" placeholder="Select">
+    
+            </div>
+            <div id="stat-container">
+
+                <label for="con">CON:</label>
+                <input type="number" id="con" name="constitution" min="6" max="20" placeholder="Select">
+    
+            </div>
+            <div id="stat-container">
+
+                <label for="wis">WIS:</label>
+                <input type="number" id="wis" name="wisdom" min="6" max="20" placeholder="Select">
+
+            </div>
+
+            <div id="stat-container">
+
+                <label for="int">INT:</label>
+                <input type="number" id="int" name="charisma" min="6" max="20" placeholder="Select">
+    
+            </div>
+
+            <div id="stat-container">
+
+                <label for="cha">CHA:</label>
+                <input type="number" id="cha" name="ratings" min="6" max="20" placeholder="Select">
+    
+            </div>
+
+        </section>
+        <button>Add Character</button>
+    </form>
+
+    <section id="dnd-char-container"></section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
