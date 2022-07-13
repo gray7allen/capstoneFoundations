@@ -13,6 +13,7 @@ module.exports = {
     },
     createCharacter: (req, res) => {
         const {title, statStrength, statDexterity, statConstitution, statWisdom, statIntelligence, statCharisma, imageURL} = req.body;
+        
         let newCharacter = {
             title: title,
             statStrength,
@@ -30,8 +31,7 @@ module.exports = {
     },
     updateSTR: (req, res) => {
         const {type} = req.body;
-        let index = characters.findIndex(elem => elem.id === +req.params.id) // fix so str isnt the only one changing... also new char updates goes up by 60 (6x10)
-
+        let index = characters.findIndex(elem => elem.id === +req.params.id)
         if(type === 'minus' && characters[index].statStrength > 6){
             characters[index].statStrength -= 1;
             res.status(200).send(characters)
